@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Image from "next/image";
 import { SearchIcon, MicrophoneIcon } from "@heroicons/react/solid";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,6 +38,7 @@ export default function Home() {
         </div>
       </form>
       {/* Footer */}
+      <Footer />
     </>
   );
 }
