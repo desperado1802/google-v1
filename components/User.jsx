@@ -5,7 +5,7 @@ export default function User({ className }) {
   const { data: session } = useSession();
 
   if (session) {
-    console.log(session.user);
+    // console.log(session.user);
     return (
       <>
         <img

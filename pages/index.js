@@ -38,6 +38,7 @@ export default function Home() {
           width="300"
           height="100"
           objectFit="cover"
+          alt="google-logo"
         />
         <div className="flex w-full mt-5 mx-auto max-w-[90%] border border-gray-200 hover:shadow-md focus-within:shadow-md px-5 py-3 rounded-full items-center sm:max-w-xl lg:max-w-2xl">
           <SearchIcon className="h-5 text-gray-500 mr-3" />
