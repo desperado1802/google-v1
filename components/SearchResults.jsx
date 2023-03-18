@@ -1,5 +1,6 @@
 import React from "react";
 import sanitizeHtml from "sanitize-html";
+import PaginationButtons from "./PaginationButtons";
 
 export default function SearchResults({ results }) {
   return (
@@ -31,6 +32,7 @@ export default function SearchResults({ results }) {
           ></p>
         </div>
       ))}
+      <PaginationButtons />
     </div>
   );
 }
